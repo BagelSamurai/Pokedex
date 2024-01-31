@@ -12,7 +12,7 @@ function Header() {
           </h1>
         </div>
         <div className="">
-          <img src="./public/pokeball.svg" width={60} height={60}></img>
+          <img src="./public/pokeball.svg" width={60} height={60} />
         </div>
       </div>
     </header>
