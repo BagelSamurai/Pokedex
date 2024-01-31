@@ -12,7 +12,7 @@ function Content() {
 
   const fetchPokemonArray = async () => {
     const pokemonArray = [];
-    for (let i = 1; i <= 1000; i++) {
+    for (let i = 1; i <= 50; i++) {
       try {
         const pokemonData = await fetchPokemon(i);
         pokemonArray.push(pokemonData);
